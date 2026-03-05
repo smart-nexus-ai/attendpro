@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import DownloadHero from '@/components/download/DownloadHero';
 import DownloadCard from '@/components/download/DownloadCard';
-import { TEACHER_APK_URL, STUDENT_APK_URL, PLAY_STORE_URL, DASHBOARD_URL } from '@/lib/constants';
+import { TEACHER_APK_URL, STUDENT_APK_URL, PLAY_STORE_URL } from '@/lib/constants';
 import { Cpu, HardDrive, Smartphone, Wifi, Rocket, ShieldCheck, Settings, Package } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 

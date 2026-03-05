@@ -3,7 +3,6 @@
 import React from 'react';
 import { Disclosure, Transition } from '@headlessui/react';
 import { ChevronDown, HelpCircle } from 'lucide-react';
-import { motion } from 'framer-motion';
 import { SectionHeading } from '@/components/ui/SectionHeading';
 import { cn } from '@/lib/utils';
 

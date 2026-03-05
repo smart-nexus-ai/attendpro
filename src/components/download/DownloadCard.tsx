@@ -1,8 +1,7 @@
 'use client';
 
 import React from 'react';
-import { motion } from 'framer-motion';
-import { Download, CheckCircle2, ShoppingBag, Terminal } from 'lucide-react';
+import { Download, CheckCircle2, ShoppingBag } from 'lucide-react';
 import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { Badge } from '@/components/ui/Badge';

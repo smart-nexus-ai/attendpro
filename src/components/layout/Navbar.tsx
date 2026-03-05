@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation';
 import { motion } from 'framer-motion';
 import { Menu } from 'lucide-react';
 import { cn } from '@/lib/utils';
-import { NAV_LINKS, DASHBOARD_URL } from '@/lib/constants';
+import { NAV_LINKS } from '@/lib/constants';
 import useScrollPosition from '@/hooks/useScrollPosition';
 import ThemeToggle from './ThemeToggle';
 import MobileMenu from './MobileMenu';

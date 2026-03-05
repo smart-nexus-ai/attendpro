@@ -4,7 +4,17 @@ import React from 'react';
 import PortalCard from './PortalCard';
 import { DASHBOARD_URL } from '@/lib/constants';
 
-const portals: any[] = [
+interface PortalItem {
+    title: string;
+    icon: string;
+    color: 'indigo' | 'emerald' | 'amber' | 'purple' | 'rose';
+    description: string;
+    features: string[];
+    href: string;
+    badge?: string;
+}
+
+const portals: PortalItem[] = [
     {
         title: "Teacher Portal",
         icon: "👨‍🏫",

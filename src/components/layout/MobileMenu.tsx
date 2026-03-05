@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, ArrowRight } from 'lucide-react';
-import { NAV_LINKS, DASHBOARD_URL } from '@/lib/constants';
+import { NAV_LINKS } from '@/lib/constants';
 import { cn } from '@/lib/utils';
 
 interface MobileMenuProps {

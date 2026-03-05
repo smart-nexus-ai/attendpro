@@ -80,6 +80,13 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
             );
         }
 
+        // Omit conflicting Framer Motion props from React.ButtonHTMLAttributes
+        const filteredProps = Object.fromEntries(
+            Object.entries(props).filter(([key]) =>
+                !['onDrag', 'onDragStart', 'onDragEnd', 'onAnimationStart'].includes(key)
+            )
+        );
+
         return (
             <motion.button
                 ref={ref}
@@ -87,7 +94,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
                 whileTap={{ scale: 0.98 }}
                 className={combinedClasses}
                 disabled={disabled || loading}
-                {...(props as any)}
+                {...filteredProps}
             >
                 {content}
             </motion.button>

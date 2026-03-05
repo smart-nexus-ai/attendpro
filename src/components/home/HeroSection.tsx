@@ -1,17 +1,15 @@
 'use client';
 
 import React from 'react';
-import Link from 'next/link';
-import { motion } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
 import { ChevronDown, Rocket, Smartphone } from 'lucide-react';
-import { DASHBOARD_URL } from '@/lib/constants';
 import { Button } from '@/components/ui/Button';
 import { Badge } from '@/components/ui/Badge';
 import { GradientText } from '@/components/ui/GradientText';
 
 const HeroSection: React.FC = () => {
     // Variants for staggered entrance animation
-    const containerVariants = {
+    const containerVariants: Variants = {
         hidden: { opacity: 0 },
         visible: {
             opacity: 1,
@@ -22,7 +20,7 @@ const HeroSection: React.FC = () => {
         },
     };
 
-    const itemVariants: any = {
+    const itemVariants: Variants = {
         hidden: { opacity: 0, y: 30 },
         visible: {
             opacity: 1,

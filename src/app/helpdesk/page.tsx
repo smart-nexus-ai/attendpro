@@ -25,7 +25,7 @@ export default function HelpDeskPage() {
                         Technical <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-emerald-500">HelpDesk</span>
                     </h1>
                     <p className="text-lg text-slate-500 dark:text-slate-400 font-medium max-w-2xl mx-auto">
-                        Need assistance with the app or the web dashboard? We're here to help you get the most out of AttendPro.
+                        Need assistance with the app or the web dashboard? We&apos;re here to help you get the most out of AttendPro.
                     </p>
                 </div>
             </section>
@@ -60,7 +60,7 @@ export default function HelpDeskPage() {
                         Still need help?
                     </h2>
                     <p className="text-base text-slate-500 dark:text-slate-400 font-medium mb-10 leading-relaxed uppercase tracking-wider">
-                        If you couldn't find your answer in the FAQs or prefer direct communication,
+                        If you couldn&apos;t find your answer in the FAQs or prefer direct communication,
                         drop us a line below.
                     </p>
                     <a

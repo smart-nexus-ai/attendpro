@@ -4,7 +4,6 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import { SectionHeading } from '@/components/ui/SectionHeading';
-import { Smartphone } from 'lucide-react';
 
 const mockups = [
     { title: "Home Screen", description: "Session List", color: "from-blue-500 to-indigo-600", image: "/screenshots/home.webp" },

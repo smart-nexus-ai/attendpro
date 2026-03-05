@@ -3,7 +3,6 @@
 import React, { useState } from 'react';
 import { Mail, Phone, Clock, MapPin, Copy, Check } from 'lucide-react';
 import { Card } from '@/components/ui/Card';
-import { cn } from '@/lib/utils';
 import { SUPPORT_EMAIL, SUPPORT_PHONE, WORKING_HOURS } from '@/lib/constants';
 
 interface ContactRowProps {
@@ -90,7 +89,7 @@ const ContactInfo: React.FC = () => {
 
             <div className="mt-12 p-6 bg-slate-50 dark:bg-slate-900/50 rounded-2xl border border-slate-100 dark:border-slate-800">
                 <p className="text-xs font-medium text-slate-500 dark:text-slate-400 leading-relaxed text-center italic">
-                    "Our support team typically responds to emails within 24 hours. For urgent session issues, please reach out via phone."
+                    &quot;Our support team typically responds to emails within 24 hours. For urgent session issues, please reach out via phone.&quot;
                 </p>
             </div>
         </Card>

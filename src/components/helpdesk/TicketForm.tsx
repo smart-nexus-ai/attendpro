@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Send, Paperclip, AlertCircle, CheckCircle2, Loader2 } from 'lucide-react';
+import { Send, Paperclip, CheckCircle2, Loader2 } from 'lucide-react';
 import { Card } from '@/components/ui/Card';
 import { Button } from '@/components/ui/Button';
 import { cn } from '@/lib/utils';
@@ -63,7 +63,7 @@ const TicketForm: React.FC = () => {
                 </div>
                 <h3 className="text-2xl font-black text-slate-900 dark:text-white uppercase mb-2">Ticket Submitted!</h3>
                 <p className="text-slate-500 dark:text-slate-400 font-medium max-w-sm mb-8">
-                    We've received your request. Our support team will get back to you within 24 hours.
+                    We&apos;ve received your request. Our support team will get back to you within 24 hours.
                 </p>
                 <Button variant="secondary" onClick={() => setStatus('idle')}>
                     Submit Another Ticket
