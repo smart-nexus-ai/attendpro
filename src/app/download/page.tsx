@@ -85,7 +85,7 @@ export default function DownloadPage() {
                                 </div>
                                 <div>
                                     <p className="text-[10px] font-black uppercase text-slate-400">Storage</p>
-                                    <p className="font-bold text-slate-900 dark:text-white text-sm">50MB Free Space</p>
+                                    <p className="font-bold text-slate-900 dark:text-white text-sm">120MB Free Space</p>
                                 </div>
                             </div>
                             <div className="flex items-center space-x-4">

@@ -76,7 +76,7 @@ const DownloadCard: React.FC<DownloadCardProps> = ({
                         Download APK
                     </Button>
                     <p className="text-[10px] font-black uppercase tracking-widest text-slate-400 dark:text-slate-500 text-center">
-                        v1.0.0 • 12MB • Android 8.0+
+                        v1.0.0 • 21MB • Android 8.0+
                     </p>
                 </div>
 
